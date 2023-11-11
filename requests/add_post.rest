@@ -1,0 +1,8 @@
+POST http://localhost:3003/api/posts
+Content-Type: application/json 
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjU0ZjU4ODkxMGE3OGM4NGYxNDA4YzBkIiwiaWF0IjoxNjk5NzAwMjU0LCJleHAiOjE2OTk3MDc0NTR9.MnnyTCdtxDVLzeS1xmdmmZxgyi-QMlO63NCGDRGmNJo
+
+{
+"content": "test reply",
+"threadId" : "654f57d510a78c84f1408bfa"
+}
